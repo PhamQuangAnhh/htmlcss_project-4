@@ -34,13 +34,31 @@ button {
     font-size: inherit;
     font-family: inherit;
 }
+
+.btn {
+    height: 56px;
+    max-width: 214px;
+    padding: 0 30px;
+    background-color: transparent;
+    border-radius: 31px;
+    border: 1px solid #ff5b2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #ff5b2e;
+    border-color: #ff5b2e;
+    color: #fff;
+}
 /* Header */
 .header {
     background-color: #fffaf5;
-    padding: 26px 0 77px;
+    padding: 26px 0 10px;
 }
 
-.header__body {
+.header__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,4 +97,208 @@ button {
     line-height: 14px;
     letter-spacing: 0%;
     color: #000958;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.header__btn:hover {
+    color: #fff;
+    background-color: #ff5b2e;
+    border-color: #ff5b2e;
+}
+
+/* Hero */
+.hero {
+    padding: 90px 0 148px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero__info {
+    margin-top: 71px;
+    max-width: 517px;
+}
+
+.hero__heading {
+    font-weight: 800;
+    font-size: 6.6rem;
+    line-height: 76px;
+    letter-spacing: 0%;
+    color: #000958;
+}
+
+.hero__desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #656689;
+    max-width: 391px;
+    margin-top: 24px;
+}
+
+.hero__info--row {
+    margin-top: 38px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.hero__btn {
+    height: 60px;
+    width: 189px;
+    padding: 0 30px;
+    background-color: #ff5b2e;
+    border-radius: 31px;
+    border: 1px solid #ff5b2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    letter-spacing: 0%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.hero__btn::after {
+    content: ">";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #ff5b2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -10px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.hero__btn:hover {
+    opacity: 0.8;
+}
+
+.hero__link {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.6rem;
+    letter-spacing: 0%;
+    color: #000958;
+}
+
+.hero__imagine {
+    max-width: 609px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.hero__cat--bg {
+    z-index: 1;
+    width: 388px;
+    height: 488px;
+    border: 3px solid #fff;
+    background-color: #fe997b;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.hero__img1 {
+    transition: 0.25s;
+}
+
+.hero__cat--bg:hover .hero__img1 {
+    scale: 1.1;
+}
+
+.hero__dog--bg {
+    z-index: 2;
+    width: 186px;
+    height: 244px;
+    border: 2px solid #ffffffa6;
+    background-color: #faa7ad;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    bottom: -58px;
+    right: 23px;
+    overflow: hidden;
+}
+
+.hero__img2 {
+    transition: 0.25s;
+}
+
+.hero__dog--bg:hover .hero__img2 {
+    scale: 1.1;
+}
+
+.hero-pet__info {
+    width: 250px;
+    height: 156px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    left: 129px;
+    bottom: -94px;
+}
+
+.hero-pet__item {
+    margin: 20px 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.hero-pet__desc1 {
+    width: 118px;
+    height: 4px;
+    background-color: #000958;
+    opacity: 8%;
+    margin-top: 7px;
+}
+
+.hero-pet__desc2 {
+    width: 39px;
+    height: 4px;
+    background-color: #000958;
+    opacity: 8%;
+    margin-top: 6px;
+}
+
+.hero-pet__line {
+    width: 222px;
+    height: 1px;
+    background-color: #f2f2f2;
+    margin-left: 14px;
+}
+
+.hero-pet__heading {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 0%;
+    color: #181e52;
+}
+
+.hero__gradient-1 {
+    position: absolute;
+    left: 375px;
+    top: 125px;
+}
+
+.hero__gradient-2 {
+    position: absolute;
+    bottom: 160px;
+    left: -60px;
 }
