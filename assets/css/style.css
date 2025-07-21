@@ -302,3 +302,146 @@ button {
     bottom: 160px;
     left: -60px;
 }
+
+/* About */
+.about {
+    padding-bottom: 53px;
+    background-color: #fffaf5;
+}
+
+.about__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__info {
+    max-width: 477px;
+    margin-top: 130px;
+}
+
+.about__title {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #5e6085;
+}
+
+.about__heading {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 62px;
+    color: #000958;
+    margin-top: 15px;
+}
+
+.about__desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #656689;
+    margin-top: 24px;
+    margin-bottom: 54px;
+}
+
+.about__row {
+    display: grid;
+    grid-template-columns: 223px 223px;
+    gap: 34px;
+}
+
+.about__info-checked {
+    position: relative;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #48496a;
+    display: flex;
+    align-items: center;
+}
+
+.about__info-checked::before {
+    content: "";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+    background-color: #ff5d31;
+    box-shadow: 0px 4px 15px -3px #ff5d31b0;
+    margin-right: 10px;
+}
+
+.about__info-checked::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    left: 5px;
+    top: 7px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    rotate: -45deg;
+    border-radius: 2px;
+}
+
+.about__image {
+    position: relative;
+    max-width: 636.7px;
+}
+
+.about__image-bg {
+    width: 494px;
+    height: 336px;
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+    box-shadow: 11px 18px 65px 0px #ff9b791f;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 276px;
+    border-radius: 16px;
+    transition: 0.25s;
+}
+
+.about__image-bg:hover {
+    scale: 1.1;
+}
+
+.about__exp {
+    position: absolute;
+    width: 136px;
+    height: 156px;
+    background: #5bd6e2;
+    box-shadow: -15px 26px 48px 0px #55f0ff2b;
+    text-align: center;
+    border-radius: 10px;
+    top: 220px;
+    left: -92px;
+}
+
+.pet-foot {
+    position: absolute;
+    top: -40px;
+    right: -32px;
+}
+
+.about__exp-year {
+    margin-top: 31px;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 4.2rem;
+    color: #fff;
+}
+
+.about__exp-desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 20px;
+    text-align: center;
+    color: #c6f4f9;
+    max-width: 83px;
+    margin: 10px auto 0px;
+}
+
+.about__img2 {
+    position: absolute;
+    right: -50.6px;
+    bottom: 307px;
+}
