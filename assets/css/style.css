@@ -445,3 +445,150 @@ button {
     right: -50.6px;
     bottom: 307px;
 }
+
+/* Rent */
+.rent {
+    padding: 93px 0 152px;
+    background-color: #fffaf5;
+}
+
+.rent__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rent__info {
+    max-width: 47.7%;
+    margin-top: 36px;
+}
+
+.rent__img-bg {
+    position: relative;
+    width: 458px;
+    height: 500px;
+    background: linear-gradient(180deg, #c6e2fa 0%, #94c2ea 100%);
+    border: 2px solid #ffffff;
+    border-radius: 18px;
+    box-shadow: 0px 17px 77px -8px #bea58b2b;
+}
+
+.rent__img-deco1,
+.rent__img-deco2,
+.rent__img-deco3,
+.rent__img-deco4,
+.rent__img-deco5,
+.rent__img-deco6 {
+    position: absolute;
+}
+.rent__img-deco1 {
+    top: 12.5px;
+    right: 63.16px;
+}
+
+.rent__img-deco2 {
+    top: -16px;
+    right: 13px;
+}
+
+.rent__img-deco3 {
+    top: 33px;
+    right: -21px;
+}
+
+.rent__img-deco4 {
+    right: -33px;
+    top: 268px;
+}
+
+.rent__img-deco5 {
+    right: 19px;
+    bottom: 150px;
+}
+
+.rent__img-deco6 {
+    bottom: -54.58px;
+    right: -42px;
+}
+
+.rent__heading {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 62px;
+    color: #000958;
+}
+
+.rent__desc {
+    max-width: 91.7%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #656689;
+    margin-top: 24px;
+}
+
+.rent__row {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rent__type {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #48496a;
+    display: flex;
+    align-items: center;
+}
+
+.rent__type:first-child::before {
+    content: url(../img/rent__type1.svg);
+    position: relative;
+    top: 3px;
+}
+
+.rent__type:nth-of-type(2)::before {
+    content: url(../img/rent__type2.svg);
+    height: 20px;
+    margin-right: 10px;
+}
+
+.rent__type:last-child::before {
+    content: url(../img/rent__type3.svg);
+    margin-right: 10px;
+}
+
+.rent__line {
+    width: 557px;
+    border: 2px solid #ff5b2e;
+    opacity: 7%;
+    margin-bottom: 36px;
+}
+
+.rent__type-active {
+    position: relative;
+}
+
+.rent__type-active::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #ff5b2e;
+    width: 95px;
+    bottom: -5px;
+    border-radius: 2px;
+}
+
+.rent__sub-desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 24px;
+    color: #656689;
+    max-width: 70.2%;
+    margin-bottom: 32px;
+}
+
+.rent__more {
+    text-decoration: underline;
+    color: #ff5d31;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
