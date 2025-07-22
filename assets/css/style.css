@@ -45,6 +45,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ff5b2e;
 }
 
 .btn:hover {
@@ -689,6 +690,128 @@ button {
     margin: 45px auto 0px;
     font-weight: 500;
     font-size: 1.6rem;
-    color: #ff5b2e;
     cursor: pointer;
+}
+
+/* Staff */
+.staff {
+    padding: 130px 0;
+    background-color: #fffaf5;
+}
+
+.staff__title {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #5e6085;
+}
+
+.staff__heading {
+    font-weight: 700;
+    font-size: 52px;
+    color: #000958;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.staff__row {
+    margin-top: 78px;
+}
+
+.staff__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.staff__member--bg {
+    width: 234px;
+    height: 266px;
+    border-radius: 129.5px;
+    transition: 0.5s;
+}
+
+.staff__member--bg:has([alt="Meghan Samit"]) {
+    background: linear-gradient(180deg, #90ccff 0%, #59a8eb 95.96%);
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.staff__member--bg:has([alt="Meghan Samit"])::after {
+    content: url(../img/deco1.svg);
+    position: absolute;
+    left: -18px;
+}
+
+.staff__member--bg:has([alt="Alissa Silva"]) {
+    background: linear-gradient(180deg, #ff997e 0%, #f3752e 100%);
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.staff__member--bg:has([alt="Alissa Silva"])::before {
+    content: url(../img/deco2.svg);
+    position: absolute;
+    left: -18px;
+    top: 0px;
+}
+
+.staff__member--bg:has([alt="Cindy Harris"]) {
+    background: linear-gradient(180deg, #fabf3e 0%, #ffa14a 100%);
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.staff__member--bg:has([alt="Cindy Harris"])::after {
+    content: url(../img/deco3.svg);
+    position: absolute;
+    left: -18px;
+}
+
+.staff__member--bg:has([alt="Lucas Tony"]) {
+    background: linear-gradient(180deg, #5bd6e2 0%, #00a7cc 100%);
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.staff__member--bg:has([alt="Lucas Tony"])::before {
+    content: url(../img/deco4.svg);
+    position: absolute;
+    left: -18px;
+    top: 0px;
+}
+
+.staff__member:hover .staff__member--bg {
+    scale: 1.2;
+    top: -30px;
+}
+
+.staff__img {
+    border-radius: 129.5px;
+}
+
+.staff__role {
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #656689;
+    margin-top: 34px;
+}
+
+.staff__name {
+    display: block;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+    color: #000958;
+    margin-top: 14px;
+}
+
+.staff__btn {
+    margin: 48px auto 0;
 }
