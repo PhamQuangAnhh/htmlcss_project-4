@@ -46,6 +46,8 @@ button {
     align-items: center;
     justify-content: center;
     color: #ff5b2e;
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -1064,4 +1066,97 @@ button {
 
 .review__dot:hover {
     background-color: #ff5b2e;
+}
+
+/* Blog */
+.blog {
+    background-color: #fffaf5;
+}
+
+.blog__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__heading {
+    font-weight: 700;
+    font-size: 5.2rem;
+    color: #000958;
+}
+
+.blog__cap {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #656689;
+    max-width: 350px;
+    margin-bottom: 24px;
+}
+
+.blog__btn {
+    font-weight: 500;
+    font-size: 1.6rem;
+    max-width: 182px;
+}
+
+.blog__list {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__item {
+    max-width: 358px;
+    cursor: pointer;
+}
+
+.blog__item-bg {
+    position: relative;
+    width: 358px;
+    height: 362px;
+    border-radius: 24px;
+}
+
+.bg-blue {
+    background-color: #90ccff;
+}
+
+.bg-orange {
+    background: #ff997e;
+}
+
+.bg-blue2 {
+    background-color: #5bd6e2;
+}
+
+.blog__date {
+    padding: 24px 0 25px 36px;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.blog__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.blog__title {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 34px;
+    color: #000958;
+    margin-top: 28px;
+}
+
+.blog__desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 24px;
+    color: #656689;
+    margin-top: 16px;
+    max-width: 351px;
 }
