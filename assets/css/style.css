@@ -815,3 +815,142 @@ button {
 .staff__btn {
     margin: 48px auto 0;
 }
+
+/* Choice */
+.choice {
+    padding: 86px 0;
+    background-color: #fff6ed;
+}
+
+.choice__heading {
+    font-weight: 700;
+    font-size: 5.2rem;
+    text-align: center;
+    color: #000958;
+}
+
+.choice__desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    text-align: center;
+    color: #656689;
+    max-width: 709px;
+    margin: 24px auto 38px;
+}
+
+.choice__option {
+    position: relative;
+    width: 276px;
+    height: 56px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px solid #ff5b2e;
+    border-radius: 31px;
+    color: #ff5b2e;
+    padding: 20px 0 20px 40px;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.choice__option::before {
+    position: absolute;
+    content: "Yearly";
+    display: inline-block;
+    width: 131px;
+    height: 56px;
+    background-color: #ff5b2e;
+    border-radius: 31px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -1px;
+    top: -1px;
+}
+
+.choice__option::after {
+    content: url(../img/save15.svg);
+    position: absolute;
+    right: -110.6px;
+    bottom: 25px;
+}
+
+.choice__list {
+    display: flex;
+    margin-top: 56px;
+    gap: 44px;
+    justify-content: center;
+}
+
+.choice__item {
+    width: 302px;
+    height: 465px;
+    box-shadow: 0px 20px 44px 0px #c36c160f;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.choice__item--content {
+    padding: 30px 28px;
+}
+
+.choice__item-title {
+    font-weight: 400;
+    font-size: 12px;
+    color: #ff5b2e;
+}
+
+.choice__item-heading {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #3f4065;
+    margin-top: 8px;
+}
+
+.choice__cost {
+    display: inline-block;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000958;
+    margin-top: 24px;
+}
+
+.choice__cta {
+    height: 44px;
+    min-width: 246px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 22px;
+}
+
+.choice__adv-item {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #656689;
+}
+
+.choice__adv-item:first-child {
+    margin-top: 24px;
+}
+
+.choice__adv-item:not(:first-child) {
+    margin-top: 18px;
+}
+
+.choice__adv-item::before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    border-left: 1.5px solid #ff5b2e;
+    border-bottom: 1.5px solid #ff5b2e;
+    rotate: -45deg;
+    border-radius: 2px;
+    margin-right: 12px;
+    top: -3px;
+}
