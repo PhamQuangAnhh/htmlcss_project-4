@@ -954,3 +954,114 @@ button {
     margin-right: 12px;
     top: -3px;
 }
+
+/* Review */
+.review {
+    padding: 130px 0;
+    background-color: #fffaf5;
+}
+
+.review__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review__info {
+    max-width: 47.27%;
+}
+
+.review__heading {
+    font-weight: 700;
+    font-size: 5.2rem;
+    color: #000958;
+}
+
+.review__desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 24px;
+}
+
+.review__name {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #282828;
+    margin-top: 34px;
+}
+
+.review__name:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    margin-right: 8px;
+    top: -5px;
+}
+
+.review__bg {
+    height: 350px;
+    width: 274px;
+    background-color: #ffda54;
+    border-radius: 137px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.review__img {
+    border-radius: 137px;
+}
+
+.review__cta {
+    color: #ff5b2e;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    border: 1.5px solid #ffd1c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+.review__cta:last-child {
+    rotate: 180deg;
+}
+
+.review__cta:hover {
+    background-color: #ff5b2e;
+    box-shadow: 0px 5px 27px 0px #ff5b2e4d;
+    color: #ffffff;
+    border-color: #ff5b2e;
+}
+
+.review__page {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.review__line {
+    width: 24px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #ff5b2e;
+}
+
+.review__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #ff5b2e;
+    transition: 0.25s;
+}
+
+.review__dot:hover {
+    background-color: #ff5b2e;
+}
