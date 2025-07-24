@@ -1245,10 +1245,6 @@ form {
     background-color: #fff;
 }
 
-.footer__more-info {
-    /* flex: 1; */
-}
-
 .footer__row {
     display: grid;
     grid-template-columns: auto auto;
